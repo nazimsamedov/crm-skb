@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .tbody td:last-child {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+}
